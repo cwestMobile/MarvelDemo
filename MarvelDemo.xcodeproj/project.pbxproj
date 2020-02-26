@@ -8,22 +8,42 @@
 
 /* Begin PBXBuildFile section */
 		67B5740A2406132D001B301A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67B574092406132D001B301A /* AppDelegate.swift */; };
-		67B5740C2406132D001B301A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67B5740B2406132D001B301A /* SceneDelegate.swift */; };
-		67B5740E2406132D001B301A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67B5740D2406132D001B301A /* ViewController.swift */; };
 		67B574112406132D001B301A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 67B5740F2406132D001B301A /* Main.storyboard */; };
 		67B574132406132E001B301A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 67B574122406132E001B301A /* Assets.xcassets */; };
 		67B574162406132E001B301A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 67B574142406132E001B301A /* LaunchScreen.storyboard */; };
+		67B5741E24061377001B301A /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67B5741D24061377001B301A /* Extensions.swift */; };
+		67B5742024061383001B301A /* MarvelApiService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67B5741F24061383001B301A /* MarvelApiService.swift */; };
+		67B574282406142C001B301A /* CharacterHomeViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67B574262406142C001B301A /* CharacterHomeViewCell.swift */; };
+		67B574292406142C001B301A /* CharacterHomeViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 67B574272406142C001B301A /* CharacterHomeViewCell.xib */; };
+		67B5742D2406148B001B301A /* CharacterDetailListViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67B5742B2406148B001B301A /* CharacterDetailListViewCell.swift */; };
+		67B5742E2406148B001B301A /* CharacterDetailListViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 67B5742C2406148B001B301A /* CharacterDetailListViewCell.xib */; };
+		67B57430240614C9001B301A /* Character.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67B5742F240614C9001B301A /* Character.swift */; };
+		67B57433240614F3001B301A /* MarvelResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67B57432240614F3001B301A /* MarvelResult.swift */; };
+		67B574352406151F001B301A /* CharacterHomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67B574342406151F001B301A /* CharacterHomeViewController.swift */; };
+		67B574392406155B001B301A /* CharacterDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67B574372406155B001B301A /* CharacterDetailViewController.swift */; };
+		67B5743A2406155B001B301A /* CharacterDetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 67B574382406155B001B301A /* CharacterDetailViewController.xib */; };
+		67B5745C240616C5001B301A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67B5745B240616C5001B301A /* SceneDelegate.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		67B574062406132D001B301A /* MarvelDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MarvelDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		67B574092406132D001B301A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		67B5740B2406132D001B301A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		67B5740D2406132D001B301A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		67B574102406132D001B301A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		67B574122406132E001B301A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		67B574152406132E001B301A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		67B574172406132E001B301A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		67B5741D24061377001B301A /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		67B5741F24061383001B301A /* MarvelApiService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MarvelApiService.swift; sourceTree = "<group>"; };
+		67B574262406142C001B301A /* CharacterHomeViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharacterHomeViewCell.swift; sourceTree = "<group>"; };
+		67B574272406142C001B301A /* CharacterHomeViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CharacterHomeViewCell.xib; sourceTree = "<group>"; };
+		67B5742B2406148B001B301A /* CharacterDetailListViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharacterDetailListViewCell.swift; sourceTree = "<group>"; };
+		67B5742C2406148B001B301A /* CharacterDetailListViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CharacterDetailListViewCell.xib; sourceTree = "<group>"; };
+		67B5742F240614C9001B301A /* Character.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Character.swift; sourceTree = "<group>"; };
+		67B57432240614F3001B301A /* MarvelResult.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MarvelResult.swift; sourceTree = "<group>"; };
+		67B574342406151F001B301A /* CharacterHomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharacterHomeViewController.swift; sourceTree = "<group>"; };
+		67B574372406155B001B301A /* CharacterDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharacterDetailViewController.swift; sourceTree = "<group>"; };
+		67B574382406155B001B301A /* CharacterDetailViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CharacterDetailViewController.xib; sourceTree = "<group>"; };
+		67B5745B240616C5001B301A /* SceneDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,15 +76,57 @@
 		67B574082406132D001B301A /* MarvelDemo */ = {
 			isa = PBXGroup;
 			children = (
+				67B5742124061387001B301A /* Common */,
+				67B5742A24061432001B301A /* Views */,
+				67B57431240614E5001B301A /* Models */,
+				67B5743624061524001B301A /* Controllers */,
 				67B574092406132D001B301A /* AppDelegate.swift */,
-				67B5740B2406132D001B301A /* SceneDelegate.swift */,
-				67B5740D2406132D001B301A /* ViewController.swift */,
+				67B5745B240616C5001B301A /* SceneDelegate.swift */,
 				67B5740F2406132D001B301A /* Main.storyboard */,
 				67B574122406132E001B301A /* Assets.xcassets */,
 				67B574142406132E001B301A /* LaunchScreen.storyboard */,
 				67B574172406132E001B301A /* Info.plist */,
 			);
 			path = MarvelDemo;
+			sourceTree = "<group>";
+		};
+		67B5742124061387001B301A /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				67B5741D24061377001B301A /* Extensions.swift */,
+				67B5741F24061383001B301A /* MarvelApiService.swift */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		67B5742A24061432001B301A /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				67B574262406142C001B301A /* CharacterHomeViewCell.swift */,
+				67B574272406142C001B301A /* CharacterHomeViewCell.xib */,
+				67B5742B2406148B001B301A /* CharacterDetailListViewCell.swift */,
+				67B5742C2406148B001B301A /* CharacterDetailListViewCell.xib */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		67B57431240614E5001B301A /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				67B5742F240614C9001B301A /* Character.swift */,
+				67B57432240614F3001B301A /* MarvelResult.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		67B5743624061524001B301A /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				67B574342406151F001B301A /* CharacterHomeViewController.swift */,
+				67B574372406155B001B301A /* CharacterDetailViewController.swift */,
+				67B574382406155B001B301A /* CharacterDetailViewController.xib */,
+			);
+			path = Controllers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -125,9 +187,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				67B5742E2406148B001B301A /* CharacterDetailListViewCell.xib in Resources */,
 				67B574162406132E001B301A /* LaunchScreen.storyboard in Resources */,
 				67B574132406132E001B301A /* Assets.xcassets in Resources */,
 				67B574112406132D001B301A /* Main.storyboard in Resources */,
+				67B574292406142C001B301A /* CharacterHomeViewCell.xib in Resources */,
+				67B5743A2406155B001B301A /* CharacterDetailViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -138,9 +203,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				67B5740E2406132D001B301A /* ViewController.swift in Sources */,
 				67B5740A2406132D001B301A /* AppDelegate.swift in Sources */,
-				67B5740C2406132D001B301A /* SceneDelegate.swift in Sources */,
+				67B57430240614C9001B301A /* Character.swift in Sources */,
+				67B57433240614F3001B301A /* MarvelResult.swift in Sources */,
+				67B5742024061383001B301A /* MarvelApiService.swift in Sources */,
+				67B574392406155B001B301A /* CharacterDetailViewController.swift in Sources */,
+				67B5742D2406148B001B301A /* CharacterDetailListViewCell.swift in Sources */,
+				67B5745C240616C5001B301A /* SceneDelegate.swift in Sources */,
+				67B5741E24061377001B301A /* Extensions.swift in Sources */,
+				67B574352406151F001B301A /* CharacterHomeViewController.swift in Sources */,
+				67B574282406142C001B301A /* CharacterHomeViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -287,6 +359,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = NM67K648EN;
 				INFOPLIST_FILE = MarvelDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -305,6 +378,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = NM67K648EN;
 				INFOPLIST_FILE = MarvelDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

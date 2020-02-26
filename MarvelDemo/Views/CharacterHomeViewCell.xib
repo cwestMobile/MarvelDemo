@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="15705" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15706"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="characterHomeViewCell" id="FaF-Q2-fd1" customClass="CharacterHomeViewCell" customModule="MarvelDemo" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="123" height="141"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="123" height="141"/>
+                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <subviews>
+                    <view clipsSubviews="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Rvw-p3-1OE">
+                        <rect key="frame" x="0.0" y="0.0" width="123" height="141"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="jjP-wm-0K2">
+                                <rect key="frame" x="0.0" y="0.0" width="123" height="141"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                        <integer key="value" value="1"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </imageView>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Name" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="12" translatesAutoresizingMaskIntoConstraints="NO" id="XoB-un-5HK">
+                                <rect key="frame" x="8" y="109" width="109" height="24"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="24" id="J1H-mU-TAJ"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="ArialRoundedMTBold" family="Arial Rounded MT Bold" pointSize="17"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="jjP-wm-0K2" firstAttribute="top" secondItem="Rvw-p3-1OE" secondAttribute="top" id="E9N-cC-tzS"/>
+                            <constraint firstItem="XoB-un-5HK" firstAttribute="leading" secondItem="Rvw-p3-1OE" secondAttribute="leading" constant="8" id="HNw-Sq-wEh"/>
+                            <constraint firstAttribute="bottom" secondItem="XoB-un-5HK" secondAttribute="bottom" constant="8" id="NSi-uw-l7E"/>
+                            <constraint firstAttribute="trailing" secondItem="XoB-un-5HK" secondAttribute="trailing" constant="6" id="YZD-vX-nwE"/>
+                            <constraint firstAttribute="bottom" secondItem="jjP-wm-0K2" secondAttribute="bottom" id="f4I-4A-j8P"/>
+                            <constraint firstAttribute="trailing" secondItem="jjP-wm-0K2" secondAttribute="trailing" id="hrz-ka-fSb"/>
+                            <constraint firstItem="jjP-wm-0K2" firstAttribute="leading" secondItem="Rvw-p3-1OE" secondAttribute="leading" id="rec-SF-NWd"/>
+                        </constraints>
+                        <userDefinedRuntimeAttributes>
+                            <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                <integer key="value" value="3"/>
+                            </userDefinedRuntimeAttribute>
+                        </userDefinedRuntimeAttributes>
+                    </view>
+                </subviews>
+            </view>
+            <constraints>
+                <constraint firstItem="Rvw-p3-1OE" firstAttribute="leading" secondItem="FaF-Q2-fd1" secondAttribute="leading" id="ZYo-93-ZlB"/>
+                <constraint firstAttribute="bottom" secondItem="Rvw-p3-1OE" secondAttribute="bottom" id="f88-6a-mZK"/>
+                <constraint firstAttribute="trailing" secondItem="Rvw-p3-1OE" secondAttribute="trailing" id="gYF-um-gne"/>
+                <constraint firstItem="Rvw-p3-1OE" firstAttribute="top" secondItem="FaF-Q2-fd1" secondAttribute="top" id="xHb-OW-Qze"/>
+            </constraints>
+            <viewLayoutGuide key="safeArea" id="vjH-lw-wbK"/>
+            <size key="customSize" width="123" height="141"/>
+            <connections>
+                <outlet property="characterImage" destination="jjP-wm-0K2" id="tjK-dC-huA"/>
+                <outlet property="characterName" destination="XoB-un-5HK" id="mOX-p4-VET"/>
+            </connections>
+            <point key="canvasLocation" x="50.000000000000007" y="69.308035714285708"/>
+        </collectionViewCell>
+    </objects>
+</document>
