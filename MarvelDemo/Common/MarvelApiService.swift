@@ -19,7 +19,7 @@ class MarvelApiService : NSObject {
     private let testMode = true
 
     /**
-     - API Keys & Base Endpoint. Would generally have these on a server endpointment or
+     - API Keys & Base Endpoint. Generally wouldn't store these as plain text.
      */
     private let privateKey = "2609dfdf4b7a8d73153d2cfbd01120ad2ff7f34d"
     private let publicKey = "bd2e4092d2a7972954e4919aea276a1e"
