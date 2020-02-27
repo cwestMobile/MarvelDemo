@@ -36,23 +36,6 @@ class MarvelApiService : NSObject {
         let hash = "\(timestamp)\(privateKey)\(publicKey)".md5
         let offsetString = "\(offset)"
         
-//        var components = URLComponents()
-//        components.scheme = "https"
-//        components.host = "api.github.com"
-//        components.path = "/v1/public/"
-//        components.queryItems = [
-//            URLQueryItem(name: "characters?ts=", value: timestamp),
-//            URLQueryItem(name: "&limit=20&offset=", value: offsetString),
-//            URLQueryItem(name: "&apikey=", value: publicKey),
-//            URLQueryItem(name: "&hash=", value: hash)
-//        ]
-
-        // Getting a URL from our components is as simple as
-        // accessing the 'url' property.
-//        guard let url = components.url else {
-//            return
-//        }
-        
         guard let url = URL(string: baseEndpoint + "characters?ts=" + timestamp + "&limit=20&offset=" + offsetString + "&apikey=" + publicKey + "&hash=" + hash) else { return }
 
         /**
